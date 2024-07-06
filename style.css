@@ -1,0 +1,17 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.8s ease; /* Smooth transition for transform */
+    height: 300px;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    object-fit: cover;
+    flex: 0 0 auto; /* Images do not shrink or grow, maintaining their size */
+  }
+  
